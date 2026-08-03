@@ -160,7 +160,16 @@ function App() {
 
       <section className="grid-two">
         <article className="panel explanation"><div className="panel-heading"><span>03</span><div><p>MODEL TRANSPARENCY</p><h2>What moves the odds</h2></div></div>
-          {report.model_explanation.map((factor) => <div className="factor" key={factor.feature}><div><b>{factor.label}</b><small>Favors {factor.favors}</small></div><div className="factor-bar"><i className={factor.shap_value >= 0 ? 'positive' : 'negative'} style={{ width: `${Math.min(Math.abs(factor.shap_value) * 55, 100)}%` }} /></div><strong>{factor.shap_value > 0 ? '+' : ''}{factor.shap_value}</strong></div>)}
+          {report.model_explanation.map((factor) => {
+            const impactScore = (Math.abs(factor.shap_value) * 100).toFixed(1);
+            return (
+              <div className="factor" key={factor.feature}>
+                <div><b style={{ textTransform: 'capitalize' }}>{factor.label}</b><small>Favors {factor.favors}</small></div>
+                <div className="factor-bar"><i className={factor.shap_value >= 0 ? 'positive' : 'negative'} style={{ width: `${Math.min(impactScore * 2, 100)}%` }} /></div>
+                <strong className="impact-score">{impactScore} PWR</strong>
+              </div>
+            );
+          })}
         </article>
         <article className="panel preview"><div className="panel-heading"><span>04</span><div><p>GROUND-TRUTHED ANALYSIS</p><h2>Match preview</h2></div></div><blockquote>“{report.grounded_preview.narrative}”</blockquote><p className="note">{report.grounded_preview.disclaimer}</p></article>
       </section>

@@ -513,8 +513,9 @@ button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow
 .factor:last-child { border-bottom: none; }
 .factor b { display: block; font-size: 14px; font-weight: 400; color: var(--color-paper); margin-bottom: 4px; }
 .factor small { color: var(--color-graphite); font: 13px var(--font-mono); }
-.factor-bar { height: 5px; border-radius: 5px; background: rgba(255,255,255,0.04); overflow: hidden; }
-.factor-bar i { display: block; height: 100%; border-radius: 5px; animation: meter-fill 1s var(--ease-out) both; }
+.factor-bar { height: 8px; border-radius: 8px; background: rgba(255,255,255,0.06); overflow: hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,0.3); }
+.factor-bar i { display: block; height: 100%; border-radius: 8px; animation: meter-fill 1s var(--ease-out) both; box-shadow: 0 0 8px currentColor; }
+.impact-score { font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--color-paper); }
 .positive { background: linear-gradient(90deg, var(--color-lime), rgba(125,211,252,0.6)); box-shadow: 0 0 8px var(--color-lime-glow); }
 .negative { background: linear-gradient(90deg, var(--color-rose), rgba(196,181,253,0.5)); }
 .factor > strong { font: 13px var(--font-mono); text-align: right; color: var(--color-paper); }
