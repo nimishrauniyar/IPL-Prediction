@@ -131,7 +131,7 @@ function App() {
       <div className="noise-overlay" />
     </div>
     <header className="hero">
-      <div className="topbar"><div className="brand"><span className="ball">●</span> IPL <em>INTELLIGENCE</em></div><div className="theme-picker" aria-label="Colour theme">{[['aurora', 'Aurora'], ['violet', 'Violet'], ['ember', 'Ember']].map(([value, label]) => <button key={value} className={theme === value ? 'active' : ''} onClick={() => setTheme(value)}>{label}</button>)}</div><span className="status"><i /> Historical model online</span></div>
+      <div className="topbar"><div className="brand"><span className="ball">●</span> <em>CRICKONOMICS</em></div><div className="theme-picker" aria-label="Colour theme">{[['aurora', 'Aurora'], ['violet', 'Violet'], ['ember', 'Ember']].map(([value, label]) => <button key={value} className={theme === value ? 'active' : ''} onClick={() => setTheme(value)}>{label}</button>)}</div><span className="status"><i /> Historical model online</span></div>
       <div className="hero-copy"><p className="eyebrow">DATA-DRIVEN PRE-MATCH ANALYSIS</p><h1>Know the game<b>before the first ball.</b></h1><p>Team form, player impact, and transparent win probabilities — in one clear match room.</p></div>
       <div className="hero-orbit"><span>DATA</span><i /><span>FORM</span><i /><span>FORESIGHT</span></div>
     </header>
@@ -192,7 +192,7 @@ function App() {
       })}</div>
       {selectedFixture && <article className="fixture-detail"><p className="eyebrow">SELECTED FIXTURE · {selectedFixture.stage}</p><h3>{selectedFixture.team_a} <span>vs</span> {selectedFixture.team_b}</h3><p>{selectedFixture.venue} · {selectedFixture.date}</p><div className="detail-probabilities"><b>{(selectedFixture.team_a_win_probability * 100).toFixed(1)}% <small>{selectedFixture.team_a}</small></b><i style={{ '--a-win': `${selectedFixture.team_a_win_probability * 100}%` }} /><b>{(selectedFixture.team_b_win_probability * 100).toFixed(1)}% <small>{selectedFixture.team_b}</small></b></div></article>}
     </section>
-    <footer>IPL MATCH INTELLIGENCE <span>·</span> Local analytics project <span>·</span> Not betting advice</footer>
+    <footer>CRICKONOMICS <span>·</span> Local analytics project <span>·</span> Not betting advice</footer>
   </main>
 }
 
