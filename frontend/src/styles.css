@@ -223,14 +223,14 @@ button, select { font: inherit; outline: none; }
   animation: fadeUp 0.6s var(--ease-out) 0.1s both;
 }
 .brand {
-  font-family: var(--font-mono); font-size: 14px; font-weight: 400;
+  font-family: var(--font-mono); font-size: 18px; font-weight: 500;
   letter-spacing: -0.02em; display: flex; align-items: center;
   color: var(--color-paper); transition: color 0.2s ease;
 }
 .brand:hover { color: var(--color-lime); }
-.brand em { font-style: normal; color: var(--color-lime); font-weight: 400; margin-left: 4px; }
+.brand em { font-style: normal; color: var(--color-lime); font-weight: 500; margin-left: 4px; }
 .ball {
-  color: var(--color-lime); font-size: 14px; margin-right: 8px;
+  color: var(--color-lime); font-size: 18px; margin-right: 8px;
   filter: drop-shadow(0 0 8px rgba(206,247,158,0.4));
 }
 .theme-picker { display: none; }
