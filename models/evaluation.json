@@ -1,57 +1,57 @@
 {
   "logistic_regression": {
     "validation_2025": {
-      "accuracy": 0.4429,
-      "roc_auc": 0.4636,
-      "log_loss": 0.7064,
-      "brier_score": 0.2565
+      "accuracy": 0.4571,
+      "roc_auc": 0.5094,
+      "log_loss": 0.6958,
+      "brier_score": 0.2514
     },
     "test_2026": {
-      "accuracy": 0.625,
-      "roc_auc": 0.5177,
-      "log_loss": 0.6921,
-      "brier_score": 0.2493
+      "accuracy": 0.4444,
+      "roc_auc": 0.4428,
+      "log_loss": 0.7399,
+      "brier_score": 0.2715
     }
   },
   "random_forest": {
     "validation_2025": {
-      "accuracy": 0.4,
-      "roc_auc": 0.3849,
-      "log_loss": 0.7386,
-      "brier_score": 0.2722
+      "accuracy": 0.5857,
+      "roc_auc": 0.552,
+      "log_loss": 0.6982,
+      "brier_score": 0.2522
     },
     "test_2026": {
-      "accuracy": 0.5,
-      "roc_auc": 0.5062,
-      "log_loss": 0.7127,
-      "brier_score": 0.2594
+      "accuracy": 0.4583,
+      "roc_auc": 0.4527,
+      "log_loss": 0.7206,
+      "brier_score": 0.2631
     }
   },
   "xgboost": {
     "validation_2025": {
-      "accuracy": 0.5286,
-      "roc_auc": 0.5004,
-      "log_loss": 0.6934,
-      "brier_score": 0.2501
+      "accuracy": 0.5714,
+      "roc_auc": 0.4668,
+      "log_loss": 0.6957,
+      "brier_score": 0.2512
     },
     "test_2026": {
-      "accuracy": 0.5556,
-      "roc_auc": 0.5169,
-      "log_loss": 0.6924,
-      "brier_score": 0.2496
+      "accuracy": 0.6111,
+      "roc_auc": 0.5202,
+      "log_loss": 0.6803,
+      "brier_score": 0.2436
     }
   },
   "ensemble_model": {
     "test_2026": {
-      "accuracy": 0.5556,
-      "roc_auc": 0.5169,
-      "log_loss": 0.6924,
-      "brier_score": 0.2496
+      "accuracy": 0.4583,
+      "roc_auc": 0.451,
+      "log_loss": 0.7201,
+      "brier_score": 0.2629
     },
     "weights": {
-      "logistic_regression": 0.0,
-      "random_forest": 0.0,
-      "xgboost": 1.0
+      "logistic_regression": 0.03164348436447994,
+      "random_forest": 0.9683565156355202,
+      "xgboost": 0.0
     }
   }
 }
