@@ -132,7 +132,7 @@ function App() {
     </div>
     <header className="hero">
       <div className="topbar"><div className="brand"><span className="ball">●</span> <em>CRICKONOMICS</em></div><div className="theme-picker" aria-label="Colour theme">{[['aurora', 'Aurora'], ['violet', 'Violet'], ['ember', 'Ember']].map(([value, label]) => <button key={value} className={theme === value ? 'active' : ''} onClick={() => setTheme(value)}>{label}</button>)}</div><span className="status"><i /> AI MODEL ONLINE</span></div>
-      <div className="hero-copy"><p className="eyebrow">PRE MATCH INTELLIGENCE</p><h1>Know the game<b>🏏 before the first ball.</b></h1><p>Analyze every matchup with AI-powered predictions, player insights, and historical performance.</p></div>
+      <div className="hero-copy"><p className="eyebrow">PRE MATCH INTELLIGENCE</p><h1>Know the game<b>before the first ball. ⚾</b></h1><p>Analyze every matchup with AI-powered predictions, player insights, and historical performance.</p></div>
       <div className="hero-orbit"><span>DATA</span><i /><span>FORM</span><i /><span>FORESIGHT</span></div>
     </header>
 
