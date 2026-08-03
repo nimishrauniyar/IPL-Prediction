@@ -162,9 +162,15 @@ function App() {
         <article className="panel explanation"><div className="panel-heading"><span>03</span><div><p>MODEL TRANSPARENCY</p><h2>What moves the odds</h2></div></div>
           {report.model_explanation.map((factor) => {
             const impactScore = (Math.abs(factor.shap_value) * 100).toFixed(1);
+            let labelStr = factor.label
+              .replace('Team A', selectedFixture.team_a)
+              .replace('Team B', selectedFixture.team_b)
+              .replace(' A ', ` ${selectedFixture.team_a} `)
+              .replace(' B ', ` ${selectedFixture.team_b} `);
+            const favorsName = factor.favors === 'Team A' ? selectedFixture.team_a : selectedFixture.team_b;
             return (
               <div className="factor" key={factor.feature}>
-                <div><b style={{ textTransform: 'capitalize' }}>{factor.label}</b><small>Favors {factor.favors}</small></div>
+                <div><b style={{ textTransform: 'capitalize' }}>{labelStr}</b><small>Favors {favorsName}</small></div>
                 <div className="factor-bar"><i className={factor.shap_value >= 0 ? 'positive' : 'negative'} style={{ width: `${Math.min(impactScore * 2, 100)}%` }} /></div>
                 <strong className="impact-score">{impactScore} PWR</strong>
               </div>
