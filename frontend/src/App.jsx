@@ -163,11 +163,11 @@ function App() {
           {report.model_explanation.map((factor) => {
             const impactScore = (Math.abs(factor.shap_value) * 100).toFixed(1);
             let labelStr = factor.label
-              .replace('Team A', selectedFixture.team_a)
-              .replace('Team B', selectedFixture.team_b)
-              .replace(' A ', ` ${selectedFixture.team_a} `)
-              .replace(' B ', ` ${selectedFixture.team_b} `);
-            const favorsName = factor.favors === 'Team A' ? selectedFixture.team_a : selectedFixture.team_b;
+              .replace('Team A', prediction.team_a)
+              .replace('Team B', prediction.team_b)
+              .replace(' A ', ` ${prediction.team_a} `)
+              .replace(' B ', ` ${prediction.team_b} `);
+            const favorsName = factor.favors === 'Team A' ? prediction.team_a : prediction.team_b;
             return (
               <div className="factor" key={factor.feature}>
                 <div><b style={{ textTransform: 'capitalize' }}>{labelStr}</b><small>Favors {favorsName}</small></div>
