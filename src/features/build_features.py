@@ -6,6 +6,7 @@ from collections import Counter, defaultdict, deque
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from src.config import PROCESSED_DIR
@@ -16,7 +17,8 @@ FEATURE_COLUMNS = [
     "head_to_head_advantage", "venue_win_rate_difference", "team_a_matches_played",
     "team_b_matches_played", "h2h_recent_momentum", "venue_dominance_score_diff",
     "elo_momentum_diff", "win_streak_diff", "net_run_rate_diff",
-    "batting_vs_bowling_matchup_a", "batting_vs_bowling_matchup_b"
+    "batting_vs_bowling_matchup_a", "batting_vs_bowling_matchup_b",
+    "rest_days_diff", "run_rate_volatility_diff"
 ]
 
 
@@ -38,6 +40,7 @@ class FeatureState:
     h2h_matches: Counter = field(default_factory=Counter)
     elo: dict[str, float] = field(default_factory=lambda: defaultdict(lambda: 1500.0))
     elo_history: dict[str, deque] = field(default_factory=lambda: defaultdict(lambda: deque([1500.0], maxlen=5)))
+    last_match_date: dict[str, pd.Timestamp] = field(default_factory=dict)
 
 
 def _pair(team_a: str, team_b: str) -> tuple[str, str]:
@@ -54,15 +57,23 @@ def _streak(wins: list[int]) -> int:
     return streak
 
 
-def _team_features(state: FeatureState, team: str, venue: str | None) -> dict[str, float]:
+def _team_features(state: FeatureState, team: str, venue: str | None, match_date: pd.Timestamp) -> dict[str, float]:
     form = list(state.team_form[team])
     venue_key = (team, venue)
     long_form = list(state.team_long_form[team])
     venue_form = list(state.venue_form[venue_key])
     elo_hist = list(state.elo_history[team])
     
-    recent_rr = _rate([item["runs_per_ball"] for item in form], 1.3)
+    run_rates = [item["runs_per_ball"] for item in form]
+    recent_rr = _rate(run_rates, 1.3)
     recent_cr = _rate([item["conceded_per_ball"] for item in form], 1.3)
+    
+    last_date = state.last_match_date.get(team)
+    rest_days = (match_date - last_date).days if last_date else 14.0
+    if rest_days < 0:
+        rest_days = 14.0
+        
+    volatility = float(np.std(run_rates)) if len(run_rates) > 1 else 0.0
     
     return {
         "elo": state.elo[team],
@@ -75,12 +86,14 @@ def _team_features(state: FeatureState, team: str, venue: str | None) -> dict[st
         "elo_momentum": elo_hist[-1] - elo_hist[0] if elo_hist else 0.0,
         "win_streak": _streak(long_form),
         "net_run_rate": recent_rr - recent_cr,
+        "rest_days": rest_days,
+        "run_rate_volatility": volatility,
     }
 
 
-def make_feature_row(state: FeatureState, team_a: str, team_b: str, venue: str | None) -> dict[str, float]:
+def make_feature_row(state: FeatureState, team_a: str, team_b: str, venue: str | None, match_date: pd.Timestamp) -> dict[str, float]:
     """Return features available before a match. Missing history uses neutral priors."""
-    a, b = _team_features(state, team_a, venue), _team_features(state, team_b, venue)
+    a, b = _team_features(state, team_a, venue, match_date), _team_features(state, team_b, venue, match_date)
     pair = _pair(team_a, team_b)
     h2h_results = list(state.h2h_form[pair])
     h2h_a = _rate([int(winner == team_a) for winner in h2h_results])
@@ -110,6 +123,9 @@ def make_feature_row(state: FeatureState, team_a: str, team_b: str, venue: str |
         "batting_vs_bowling_matchup_a": a["recent_run_rate"] - b["recent_concede_rate"],
         # Cross matchup: B's batting vs A's bowling
         "batting_vs_bowling_matchup_b": b["recent_run_rate"] - a["recent_concede_rate"],
+        
+        "rest_days_diff": a["rest_days"] - b["rest_days"],
+        "run_rate_volatility_diff": a["run_rate_volatility"] - b["run_rate_volatility"],
     }
 
 
@@ -139,6 +155,8 @@ def _update(state: FeatureState, match: pd.Series, stats: dict[tuple[str, str], 
     state.elo[team_b] += 20 * ((1 - actual_a) - (1 - expected_a))
     state.elo_history[team_a].append(state.elo[team_a])
     state.elo_history[team_b].append(state.elo[team_b])
+    state.last_match_date[team_a] = match.date
+    state.last_match_date[team_b] = match.date
 
 
 def build_feature_table(matches: pd.DataFrame, team_stats: pd.DataFrame) -> pd.DataFrame:
@@ -164,7 +182,7 @@ def build_feature_table(matches: pd.DataFrame, team_stats: pd.DataFrame) -> pd.D
             row = {"match_id": match.match_id, "date": match.date, "season": match.season,
                    "team_a": match.team_a, "team_b": match.team_b, "venue": match.venue,
                    "target_team_a_win": int(match.winner == match.team_a)}
-            row.update(make_feature_row(state, match.team_a, match.team_b, match.venue))
+            row.update(make_feature_row(state, match.team_a, match.team_b, match.venue, match.date))
             pending.append((pd.Series(match._asdict()), row))
         rows.extend(row for _, row in pending)
         for match, _ in pending:

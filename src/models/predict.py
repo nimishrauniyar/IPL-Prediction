@@ -23,7 +23,7 @@ def predict_match(team_a: str, team_b: str, schedule_path=None, as_of: date | No
     team_stats = pd.read_csv(PROCESSED_DIR / "ipl_team_match_stats.csv")
     state = build_state_before(matches, team_stats, cutoff)
     venue = context.venue if context.mode == "scheduled_match" else None
-    feature_row = make_feature_row(state, context.team_a, context.team_b, venue)
+    feature_row = make_feature_row(state, context.team_a, context.team_b, venue, cutoff)
     artifact = joblib.load(MODEL_DIR / "ipl_ensemble.joblib")
     x = pd.DataFrame([feature_row], columns=artifact["feature_columns"])
     probability = sum(artifact["weights"][name] * model.predict_proba(x)[:, 1][0]

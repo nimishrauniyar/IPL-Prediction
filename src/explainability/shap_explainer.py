@@ -20,6 +20,8 @@ DISPLAY_NAMES = {
     "net_run_rate_diff": "net run rate",
     "batting_vs_bowling_matchup_a": "Team A batting vs B bowling",
     "batting_vs_bowling_matchup_b": "Team B batting vs A bowling",
+    "rest_days_diff": "fatigue index (rest days)",
+    "run_rate_volatility_diff": "form consistency (volatility index)",
 }
 
 
