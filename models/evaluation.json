@@ -1,56 +1,56 @@
 {
   "logistic_regression": {
     "validation_2025": {
-      "accuracy": 0.4571,
-      "roc_auc": 0.4971,
-      "log_loss": 0.7013,
-      "brier_score": 0.2542
+      "accuracy": 0.5,
+      "roc_auc": 0.5389,
+      "log_loss": 0.6902,
+      "brier_score": 0.2487
     },
     "test_2026": {
-      "accuracy": 0.4306,
-      "roc_auc": 0.4313,
-      "log_loss": 0.7437,
-      "brier_score": 0.2731
+      "accuracy": 0.4444,
+      "roc_auc": 0.4403,
+      "log_loss": 0.7482,
+      "brier_score": 0.2755
     }
   },
   "random_forest": {
     "validation_2025": {
-      "accuracy": 0.5571,
-      "roc_auc": 0.534,
-      "log_loss": 0.7081,
-      "brier_score": 0.2572
+      "accuracy": 0.5286,
+      "roc_auc": 0.5291,
+      "log_loss": 0.7111,
+      "brier_score": 0.2587
     },
     "test_2026": {
       "accuracy": 0.4444,
-      "roc_auc": 0.4617,
-      "log_loss": 0.7149,
-      "brier_score": 0.2603
+      "roc_auc": 0.4535,
+      "log_loss": 0.7134,
+      "brier_score": 0.2598
     }
   },
   "xgboost": {
     "validation_2025": {
-      "accuracy": 0.5286,
-      "roc_auc": 0.4603,
-      "log_loss": 0.6954,
-      "brier_score": 0.2511
+      "accuracy": 0.4857,
+      "roc_auc": 0.4873,
+      "log_loss": 0.7461,
+      "brier_score": 0.274
     },
     "test_2026": {
-      "accuracy": 0.5556,
-      "roc_auc": 0.5021,
-      "log_loss": 0.6836,
-      "brier_score": 0.2452
+      "accuracy": 0.5417,
+      "roc_auc": 0.5045,
+      "log_loss": 0.7058,
+      "brier_score": 0.2561
     }
   },
   "ensemble_model": {
     "test_2026": {
-      "accuracy": 0.4444,
-      "roc_auc": 0.4617,
-      "log_loss": 0.7149,
-      "brier_score": 0.2603
+      "accuracy": 0.4583,
+      "roc_auc": 0.437,
+      "log_loss": 0.7284,
+      "brier_score": 0.2667
     },
     "weights": {
-      "logistic_regression": 0.0,
-      "random_forest": 1.0,
+      "logistic_regression": 0.6411852441928462,
+      "random_forest": 0.3588147558071539,
       "xgboost": 0.0
     }
   }
