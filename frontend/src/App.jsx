@@ -147,7 +147,7 @@ function App() {
     </section>
 
     {error && <div className="error">{error}</div>}
-    {!report && !error && <section className="empty"><span>🏏</span><h2>Your match room is ready</h2><p>Select two teams and generate a fully explained prediction.</p></section>}
+    {!report && !error && <section className="empty"><span>🏏</span><h2>Your Match Intelligence Hub</h2><p>Select two teams and generate a fully explained prediction.</p></section>}
 
     {report && <>
       <section className="result-head">
