@@ -556,13 +556,14 @@ button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow
    FOOTER
    ═══════════════════════════════════════════════ */
 footer {
-  text-align: center; padding: 48px 0;
-  margin-top: 100px; color: var(--color-graphite); font: 13px var(--font-mono);
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px;
+  padding: 48px 16px; margin-top: 100px;
+  color: var(--color-graphite); font: 13px var(--font-mono);
   background: linear-gradient(180deg, transparent, rgba(10,18,20,0.95));
   margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);
   border-top: 1px solid rgba(206,247,158,0.06);
 }
-footer span { color: var(--color-graphite); margin: 0 12px; opacity: 0.5; }
+footer span { color: var(--color-graphite); opacity: 0.5; }
 
 /* ═══════════════════════════════════════════════
    H2H & FORM GUIDE

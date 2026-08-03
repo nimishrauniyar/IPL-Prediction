@@ -207,7 +207,7 @@ function App() {
       })}</div>
       {selectedFixture && <article className="fixture-detail"><p className="eyebrow">SELECTED FIXTURE · {selectedFixture.stage}</p><h3>{selectedFixture.team_a} <span>vs</span> {selectedFixture.team_b}</h3><p>{selectedFixture.venue} · {selectedFixture.date}</p><div className="detail-probabilities"><b>{(selectedFixture.team_a_win_probability * 100).toFixed(1)}% <small>{selectedFixture.team_a}</small></b><i style={{ '--a-win': `${selectedFixture.team_a_win_probability * 100}%` }} /><b>{(selectedFixture.team_b_win_probability * 100).toFixed(1)}% <small>{selectedFixture.team_b}</small></b></div></article>}
     </section>
-    <footer>CRICKONOMICS <span>·</span> Local analytics project <span>·</span> Not betting advice <span>·</span> Made with love ❤️ by n ❤️</footer>
+    <footer>CRICKONOMICS <span>·</span> Local analytics project <span>·</span> Not betting advice <span>·</span> Made with love❤️by n❤️</footer>
   </main>
 }
 
