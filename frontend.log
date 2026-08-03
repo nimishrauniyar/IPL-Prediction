@@ -1,0 +1,19 @@
+
+> ipl-match-intelligence-ui@1.0.0 dev
+> vite
+
+
+  VITE v7.3.6  ready in 185 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+8:29:04 PM [vite] (client) hmr update /src/styles.css
+8:34:44 PM [vite] (client) hmr update /src/App.jsx
+8:59:13 PM [vite] (client) hmr update /src/App.jsx
+9:00:49 PM [vite] (client) hmr update /src/styles.css
+9:08:39 PM [vite] (client) hmr update /src/styles.css
+9:11:09 PM [vite] (client) hmr update /src/App.jsx
+9:11:58 PM [vite] (client) hmr update /src/styles.css
+9:12:14 PM [vite] (client) hmr update /src/styles.css
+9:12:33 PM [vite] (client) hmr update /src/styles.css
+9:17:10 PM [vite] (client) hmr update /src/styles.css
