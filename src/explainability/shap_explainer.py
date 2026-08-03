@@ -31,7 +31,7 @@ def explain_xgboost(feature_row: dict[str, float], limit: int = 5) -> list[dict]
     x = pd.DataFrame([feature_row], columns=artifact["feature_columns"])
     pipeline = artifact["models"]["logistic_regression"]
     scaled = pipeline.named_steps["scale"].transform(x)
-    values = scaled.reshape(-1) * pipeline.named_steps["model"].coef_.reshape(-1)
+    values = scaled.reshape(-1) * pipeline.named_steps["clf"].coef_.reshape(-1)
     ranked = sorted(zip(artifact["feature_columns"], values), key=lambda item: abs(item[1]), reverse=True)[:limit]
     return [{"feature": feature, "label": DISPLAY_NAMES[feature], "shap_value": round(float(value), 4),
              "favors": "Team A" if value >= 0 else "Team B", "value": round(float(feature_row[feature]), 4)}
