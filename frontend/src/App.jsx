@@ -171,7 +171,7 @@ function App() {
             return (
               <div className="factor" key={factor.feature}>
                 <div><b style={{ textTransform: 'capitalize' }}>{labelStr}</b><small>Favors {favorsName}</small></div>
-                <div className="factor-bar"><i className={factor.shap_value >= 0 ? 'positive' : 'negative'} style={{ width: `${Math.min(impactScore * 2, 100)}%` }} /></div>
+                <div className="factor-bar"><i className={factor.shap_value >= 0 ? 'positive' : 'negative'} style={{ width: `${Math.min(impactScore, 100)}%` }} /></div>
                 <strong className="impact-score">{impactScore} POWER</strong>
               </div>
             );
