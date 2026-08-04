@@ -1,0 +1,1215 @@
+match_id,team,runs_scored,balls_faced,won
+1136561,Mumbai Indians,165,122,False
+1136561,Chennai Super Kings,169,124,True
+1136562,Delhi Capitals,166,124,False
+1136562,Punjab Kings,167,114,True
+1136563,Royal Challengers Bengaluru,176,121,False
+1136563,Kolkata Knight Riders,177,123,True
+1136564,Rajasthan Royals,125,125,False
+1136564,Sunrisers Hyderabad,127,100,True
+1136565,Kolkata Knight Riders,202,123,False
+1136565,Chennai Super Kings,205,123,True
+1136566,Rajasthan Royals,153,109,True
+1136566,Delhi Capitals,60,37,False
+1136567,Mumbai Indians,147,124,False
+1136567,Sunrisers Hyderabad,151,121,True
+1136568,Punjab Kings,155,119,False
+1136568,Royal Challengers Bengaluru,159,118,True
+1136569,Mumbai Indians,194,125,False
+1136569,Delhi Capitals,195,121,True
+1136570,Kolkata Knight Riders,138,123,False
+1136570,Sunrisers Hyderabad,139,119,True
+1136571,Rajasthan Royals,217,128,True
+1136571,Royal Challengers Bengaluru,198,123,False
+1136572,Punjab Kings,197,121,True
+1136572,Chennai Super Kings,193,129,False
+1136573,Kolkata Knight Riders,200,122,True
+1136573,Delhi Capitals,129,91,False
+1136574,Mumbai Indians,213,127,True
+1136574,Royal Challengers Bengaluru,167,124,False
+1136575,Rajasthan Royals,160,124,False
+1136575,Kolkata Knight Riders,163,115,True
+1136576,Punjab Kings,193,123,True
+1136576,Sunrisers Hyderabad,178,130,False
+1136577,Chennai Super Kings,204,126,True
+1136577,Rajasthan Royals,140,119,False
+1136578,Kolkata Knight Riders,191,128,False
+1136578,Punjab Kings,126,69,True
+1136579,Delhi Capitals,174,123,False
+1136579,Royal Challengers Bengaluru,176,111,True
+1136580,Chennai Super Kings,182,124,True
+1136580,Sunrisers Hyderabad,178,122,False
+1136581,Mumbai Indians,167,124,False
+1136581,Rajasthan Royals,168,124,True
+1136582,Punjab Kings,143,124,True
+1136582,Delhi Capitals,139,127,False
+1136583,Sunrisers Hyderabad,118,116,True
+1136583,Mumbai Indians,87,114,False
+1136584,Royal Challengers Bengaluru,205,124,False
+1136584,Chennai Super Kings,207,127,True
+1136585,Sunrisers Hyderabad,132,123,True
+1136585,Punjab Kings,119,116,False
+1136586,Delhi Capitals,219,123,True
+1136586,Kolkata Knight Riders,164,123,False
+1136587,Chennai Super Kings,169,124,False
+1136587,Mumbai Indians,170,123,True
+1136588,Sunrisers Hyderabad,151,120,True
+1136588,Rajasthan Royals,140,120,False
+1136589,Royal Challengers Bengaluru,175,124,False
+1136589,Kolkata Knight Riders,176,122,True
+1136590,Chennai Super Kings,211,124,True
+1136590,Delhi Capitals,198,126,False
+1136591,Royal Challengers Bengaluru,167,123,True
+1136591,Mumbai Indians,153,130,False
+1136592,Delhi Capitals,196,109,True
+1136592,Rajasthan Royals,146,75,False
+1136593,Chennai Super Kings,177,123,False
+1136593,Kolkata Knight Riders,180,113,True
+1136594,Punjab Kings,174,125,False
+1136594,Mumbai Indians,176,116,True
+1136595,Royal Challengers Bengaluru,127,121,False
+1136595,Chennai Super Kings,128,112,True
+1136596,Delhi Capitals,163,122,False
+1136596,Sunrisers Hyderabad,164,124,True
+1136597,Mumbai Indians,181,125,True
+1136597,Kolkata Knight Riders,168,121,False
+1136598,Rajasthan Royals,152,121,False
+1136598,Punjab Kings,155,115,True
+1136599,Sunrisers Hyderabad,146,126,True
+1136599,Royal Challengers Bengaluru,141,123,False
+1136600,Rajasthan Royals,158,122,True
+1136600,Punjab Kings,143,122,False
+1136601,Mumbai Indians,210,125,True
+1136601,Kolkata Knight Riders,108,109,False
+1136602,Delhi Capitals,187,121,False
+1136602,Sunrisers Hyderabad,191,114,True
+1136603,Chennai Super Kings,176,131,False
+1136603,Rajasthan Royals,177,121,True
+1136604,Kolkata Knight Riders,245,125,True
+1136604,Punjab Kings,214,126,False
+1136605,Delhi Capitals,181,126,False
+1136605,Royal Challengers Bengaluru,187,119,True
+1136606,Sunrisers Hyderabad,179,130,False
+1136606,Chennai Super Kings,180,115,True
+1136607,Mumbai Indians,168,127,False
+1136607,Rajasthan Royals,171,112,True
+1136608,Punjab Kings,88,94,False
+1136608,Royal Challengers Bengaluru,92,51,True
+1136609,Rajasthan Royals,142,115,False
+1136609,Kolkata Knight Riders,145,109,True
+1136610,Mumbai Indians,186,126,True
+1136610,Punjab Kings,183,125,False
+1136611,Royal Challengers Bengaluru,218,122,True
+1136611,Sunrisers Hyderabad,204,123,False
+1136612,Delhi Capitals,162,126,True
+1136612,Chennai Super Kings,128,120,False
+1136613,Rajasthan Royals,164,124,True
+1136613,Royal Challengers Bengaluru,134,117,False
+1136614,Sunrisers Hyderabad,172,126,False
+1136614,Kolkata Knight Riders,173,123,True
+1136615,Delhi Capitals,174,125,True
+1136615,Mumbai Indians,163,122,False
+1136616,Punjab Kings,153,124,False
+1136616,Chennai Super Kings,159,123,True
+1136617,Sunrisers Hyderabad,139,129,False
+1136617,Chennai Super Kings,140,118,True
+1136618,Kolkata Knight Riders,169,126,True
+1136618,Rajasthan Royals,144,121,False
+1136619,Sunrisers Hyderabad,174,124,True
+1136619,Kolkata Knight Riders,160,121,False
+1136620,Sunrisers Hyderabad,178,127,False
+1136620,Chennai Super Kings,181,114,True
+1175356,Royal Challengers Bengaluru,70,104,False
+1175356,Chennai Super Kings,71,110,True
+1175357,Sunrisers Hyderabad,181,123,False
+1175357,Kolkata Knight Riders,183,121,True
+1175358,Delhi Capitals,213,124,True
+1175358,Mumbai Indians,176,122,False
+1175359,Punjab Kings,184,128,True
+1175359,Rajasthan Royals,170,124,False
+1175360,Delhi Capitals,147,125,False
+1175360,Chennai Super Kings,150,121,True
+1175361,Kolkata Knight Riders,218,124,True
+1175361,Punjab Kings,190,125,False
+1175362,Mumbai Indians,187,125,True
+1175362,Royal Challengers Bengaluru,181,123,False
+1175363,Rajasthan Royals,198,124,False
+1175363,Sunrisers Hyderabad,201,119,True
+1175364,Mumbai Indians,176,124,False
+1175364,Punjab Kings,177,119,True
+1175365,Kolkata Knight Riders,192,130,False
+1175365,Delhi Capitals,195,129,False
+1175366,Sunrisers Hyderabad,231,121,True
+1175366,Royal Challengers Bengaluru,113,123,False
+1175367,Chennai Super Kings,175,126,True
+1175367,Rajasthan Royals,167,125,False
+1175368,Punjab Kings,166,124,True
+1175368,Delhi Capitals,152,121,False
+1175369,Royal Challengers Bengaluru,158,122,False
+1175369,Rajasthan Royals,164,124,True
+1175370,Mumbai Indians,170,125,True
+1175370,Chennai Super Kings,133,127,False
+1175371,Delhi Capitals,129,122,False
+1175371,Sunrisers Hyderabad,131,114,True
+1175372,Royal Challengers Bengaluru,205,124,False
+1175372,Kolkata Knight Riders,206,122,True
+1178393,Chennai Super Kings,160,125,True
+1178393,Punjab Kings,138,124,False
+1178394,Mumbai Indians,136,124,True
+1178394,Sunrisers Hyderabad,96,109,False
+1178395,Royal Challengers Bengaluru,149,124,False
+1178395,Delhi Capitals,152,120,True
+1178396,Rajasthan Royals,139,125,False
+1178396,Kolkata Knight Riders,140,86,True
+1178397,Sunrisers Hyderabad,150,123,False
+1178397,Punjab Kings,151,119,True
+1178398,Kolkata Knight Riders,108,123,False
+1178398,Chennai Super Kings,111,108,True
+1178399,Punjab Kings,197,125,False
+1178399,Mumbai Indians,198,127,True
+1178400,Rajasthan Royals,151,122,False
+1178400,Chennai Super Kings,155,124,True
+1178401,Kolkata Knight Riders,178,124,False
+1178401,Delhi Capitals,180,115,True
+1178402,Mumbai Indians,187,123,False
+1178402,Rajasthan Royals,188,119,True
+1178403,Punjab Kings,173,125,False
+1178403,Royal Challengers Bengaluru,174,117,True
+1178404,Kolkata Knight Riders,161,125,False
+1178404,Chennai Super Kings,162,120,True
+1178405,Delhi Capitals,155,124,True
+1178405,Sunrisers Hyderabad,116,117,False
+1178406,Royal Challengers Bengaluru,171,121,False
+1178406,Mumbai Indians,172,120,True
+1178407,Punjab Kings,182,122,True
+1178407,Rajasthan Royals,170,126,False
+1178408,Chennai Super Kings,132,123,False
+1178408,Sunrisers Hyderabad,137,104,True
+1178409,Mumbai Indians,168,124,True
+1178409,Delhi Capitals,128,123,False
+1178410,Royal Challengers Bengaluru,213,125,True
+1178410,Kolkata Knight Riders,203,128,False
+1178411,Mumbai Indians,161,124,False
+1178411,Rajasthan Royals,162,115,True
+1178412,Punjab Kings,163,122,False
+1178412,Delhi Capitals,166,126,True
+1178413,Kolkata Knight Riders,159,124,False
+1178413,Sunrisers Hyderabad,161,94,True
+1178414,Royal Challengers Bengaluru,161,122,True
+1178414,Chennai Super Kings,160,123,False
+1178415,Rajasthan Royals,191,124,False
+1178415,Delhi Capitals,193,117,True
+1178416,Sunrisers Hyderabad,175,123,False
+1178416,Chennai Super Kings,176,121,True
+1178417,Royal Challengers Bengaluru,202,125,True
+1178417,Punjab Kings,185,124,False
+1178418,Kolkata Knight Riders,175,123,False
+1178418,Rajasthan Royals,177,121,True
+1178419,Mumbai Indians,155,123,True
+1178419,Chennai Super Kings,109,112,False
+1178420,Sunrisers Hyderabad,160,123,False
+1178420,Rajasthan Royals,161,118,True
+1178421,Delhi Capitals,187,120,True
+1178421,Royal Challengers Bengaluru,171,122,False
+1178422,Kolkata Knight Riders,232,126,True
+1178422,Mumbai Indians,198,120,False
+1178423,Sunrisers Hyderabad,212,130,True
+1178423,Punjab Kings,167,127,False
+1178424,Royal Challengers Bengaluru,62,31,False
+1178424,Rajasthan Royals,41,20,False
+1178425,Chennai Super Kings,179,125,True
+1178425,Delhi Capitals,99,98,False
+1178426,Mumbai Indians,171,125,False
+1178426,Sunrisers Hyderabad,170,126,False
+1178427,Punjab Kings,183,121,False
+1178427,Kolkata Knight Riders,185,113,True
+1178428,Rajasthan Royals,115,126,False
+1178428,Delhi Capitals,121,98,True
+1178429,Sunrisers Hyderabad,175,123,False
+1178429,Royal Challengers Bengaluru,178,123,True
+1178430,Chennai Super Kings,170,121,False
+1178430,Punjab Kings,173,113,True
+1178431,Kolkata Knight Riders,133,128,False
+1178431,Mumbai Indians,134,100,True
+1181764,Chennai Super Kings,131,124,False
+1181764,Mumbai Indians,132,113,True
+1181766,Sunrisers Hyderabad,162,128,False
+1181766,Delhi Capitals,165,124,True
+1181767,Delhi Capitals,147,123,False
+1181767,Chennai Super Kings,151,116,True
+1181768,Mumbai Indians,149,123,True
+1181768,Chennai Super Kings,148,124,False
+1216492,Mumbai Indians,162,124,False
+1216492,Chennai Super Kings,166,120,True
+1216493,Delhi Capitals,160,131,False
+1216493,Punjab Kings,159,125,False
+1216494,Kolkata Knight Riders,84,121,False
+1216494,Royal Challengers Bengaluru,85,84,True
+1216495,Mumbai Indians,149,120,False
+1216495,Sunrisers Hyderabad,151,107,True
+1216496,Rajasthan Royals,216,128,True
+1216496,Chennai Super Kings,200,124,False
+1216497,Kolkata Knight Riders,194,125,True
+1216497,Delhi Capitals,135,125,False
+1216498,Punjab Kings,126,125,True
+1216498,Sunrisers Hyderabad,114,123,False
+1216499,Royal Challengers Bengaluru,164,123,False
+1216499,Mumbai Indians,166,121,True
+1216500,Delhi Capitals,184,127,True
+1216500,Rajasthan Royals,138,126,False
+1216501,Kolkata Knight Riders,167,126,True
+1216501,Chennai Super Kings,157,122,False
+1216502,Royal Challengers Bengaluru,120,124,False
+1216502,Sunrisers Hyderabad,121,90,True
+1216503,Mumbai Indians,191,125,True
+1216503,Punjab Kings,143,125,False
+1216504,Kolkata Knight Riders,174,128,True
+1216504,Rajasthan Royals,137,121,False
+1216505,Royal Challengers Bengaluru,152,123,False
+1216505,Delhi Capitals,154,117,True
+1216506,Punjab Kings,153,121,False
+1216506,Chennai Super Kings,154,116,True
+1216507,Sunrisers Hyderabad,158,123,False
+1216507,Rajasthan Royals,163,121,True
+1216508,Mumbai Indians,195,131,True
+1216508,Kolkata Knight Riders,146,123,False
+1216509,Chennai Super Kings,179,124,False
+1216509,Delhi Capitals,185,122,True
+1216510,Punjab Kings,206,125,True
+1216510,Royal Challengers Bengaluru,109,108,False
+1216511,Mumbai Indians,193,127,True
+1216511,Rajasthan Royals,136,110,False
+1216512,Kolkata Knight Riders,166,125,False
+1216512,Sunrisers Hyderabad,165,126,False
+1216513,Punjab Kings,178,123,False
+1216513,Chennai Super Kings,181,113,True
+1216514,Rajasthan Royals,154,122,False
+1216514,Royal Challengers Bengaluru,158,116,True
+1216515,Delhi Capitals,228,122,True
+1216515,Kolkata Knight Riders,210,127,False
+1216516,Sunrisers Hyderabad,164,128,True
+1216516,Chennai Super Kings,157,124,False
+1216517,Mumbai Indians,192,135,False
+1216517,Punjab Kings,196,134,False
+1216518,Rajasthan Royals,154,123,False
+1216518,Sunrisers Hyderabad,156,114,True
+1216519,Delhi Capitals,196,126,True
+1216519,Royal Challengers Bengaluru,137,126,False
+1216520,Kolkata Knight Riders,149,123,False
+1216520,Punjab Kings,150,114,True
+1216521,Chennai Super Kings,114,125,False
+1216521,Mumbai Indians,116,74,True
+1216522,Rajasthan Royals,177,129,False
+1216522,Royal Challengers Bengaluru,179,130,True
+1216523,Kolkata Knight Riders,164,124,True
+1216523,Punjab Kings,162,120,False
+1216524,Sunrisers Hyderabad,219,124,True
+1216524,Delhi Capitals,131,119,False
+1216525,Royal Challengers Bengaluru,169,131,True
+1216525,Chennai Super Kings,132,125,False
+1216526,Kolkata Knight Riders,148,125,False
+1216526,Mumbai Indians,149,101,True
+1216527,Punjab Kings,223,127,False
+1216527,Rajasthan Royals,226,123,True
+1216528,Chennai Super Kings,167,122,True
+1216528,Sunrisers Hyderabad,147,126,False
+1216529,Delhi Capitals,162,125,False
+1216529,Mumbai Indians,166,122,True
+1216530,Kolkata Knight Riders,191,122,True
+1216530,Rajasthan Royals,131,123,False
+1216531,Royal Challengers Bengaluru,171,125,False
+1216531,Punjab Kings,177,126,True
+1216532,Sunrisers Hyderabad,162,123,True
+1216532,Delhi Capitals,147,124,False
+1216533,Chennai Super Kings,125,122,False
+1216533,Rajasthan Royals,126,106,True
+1216534,Royal Challengers Bengaluru,163,124,True
+1216534,Sunrisers Hyderabad,153,122,False
+1216535,Delhi Capitals,110,122,False
+1216535,Mumbai Indians,111,87,True
+1216536,Kolkata Knight Riders,172,121,False
+1216536,Chennai Super Kings,178,125,True
+1216537,Punjab Kings,185,129,False
+1216537,Rajasthan Royals,186,108,True
+1216538,Mumbai Indians,208,123,True
+1216538,Sunrisers Hyderabad,174,129,False
+1216539,Delhi Capitals,175,123,True
+1216539,Chennai Super Kings,131,124,False
+1216540,Royal Challengers Bengaluru,194,125,True
+1216540,Kolkata Knight Riders,112,123,False
+1216541,Mumbai Indians,195,125,False
+1216541,Rajasthan Royals,196,117,True
+1216542,Sunrisers Hyderabad,201,125,True
+1216542,Punjab Kings,132,103,False
+1216543,Delhi Capitals,161,128,True
+1216543,Rajasthan Royals,148,124,False
+1216544,Royal Challengers Bengaluru,145,127,False
+1216544,Chennai Super Kings,150,113,True
+1216545,Sunrisers Hyderabad,142,123,False
+1216545,Kolkata Knight Riders,145,112,True
+1216546,Delhi Capitals,164,123,False
+1216546,Punjab Kings,167,120,True
+1216547,Royal Challengers Bengaluru,212,129,False
+1216547,Mumbai Indians,208,131,False
+1237177,Mumbai Indians,200,121,True
+1237177,Delhi Capitals,143,126,False
+1237178,Royal Challengers Bengaluru,131,124,False
+1237178,Sunrisers Hyderabad,132,123,True
+1237180,Delhi Capitals,189,125,True
+1237180,Sunrisers Hyderabad,172,125,False
+1237181,Delhi Capitals,156,123,False
+1237181,Mumbai Indians,157,112,True
+1254058,Mumbai Indians,159,124,False
+1254058,Royal Challengers Bengaluru,160,126,True
+1254059,Chennai Super Kings,188,123,False
+1254059,Delhi Capitals,190,116,True
+1254060,Kolkata Knight Riders,187,123,True
+1254060,Sunrisers Hyderabad,177,125,False
+1254061,Punjab Kings,221,126,True
+1254061,Rajasthan Royals,217,127,False
+1254062,Mumbai Indians,152,123,True
+1254062,Kolkata Knight Riders,142,122,False
+1254063,Royal Challengers Bengaluru,149,127,True
+1254063,Sunrisers Hyderabad,143,126,False
+1254064,Delhi Capitals,147,124,False
+1254064,Rajasthan Royals,150,119,True
+1254065,Punjab Kings,106,124,False
+1254065,Chennai Super Kings,107,96,True
+1254066,Mumbai Indians,150,125,True
+1254066,Sunrisers Hyderabad,137,120,False
+1254067,Royal Challengers Bengaluru,204,128,True
+1254067,Kolkata Knight Riders,166,123,False
+1254068,Punjab Kings,195,122,False
+1254068,Delhi Capitals,198,115,True
+1254069,Chennai Super Kings,188,129,True
+1254069,Rajasthan Royals,143,129,False
+1254070,Mumbai Indians,137,120,False
+1254070,Delhi Capitals,138,121,True
+1254071,Punjab Kings,120,120,False
+1254071,Sunrisers Hyderabad,121,116,True
+1254072,Chennai Super Kings,220,129,True
+1254072,Kolkata Knight Riders,202,123,False
+1254073,Rajasthan Royals,177,128,False
+1254073,Royal Challengers Bengaluru,181,101,True
+1254074,Mumbai Indians,131,122,False
+1254074,Punjab Kings,132,110,True
+1254075,Kolkata Knight Riders,133,126,False
+1254075,Rajasthan Royals,134,120,True
+1254076,Chennai Super Kings,191,125,True
+1254076,Royal Challengers Bengaluru,122,125,False
+1254077,Delhi Capitals,167,129,False
+1254077,Sunrisers Hyderabad,166,131,False
+1254078,Punjab Kings,123,124,False
+1254078,Kolkata Knight Riders,126,101,True
+1254079,Royal Challengers Bengaluru,171,122,True
+1254079,Delhi Capitals,170,122,False
+1254080,Sunrisers Hyderabad,171,126,False
+1254080,Chennai Super Kings,173,114,True
+1254081,Rajasthan Royals,171,124,False
+1254081,Mumbai Indians,172,113,True
+1254082,Kolkata Knight Riders,154,121,False
+1254082,Delhi Capitals,156,104,True
+1254083,Punjab Kings,179,124,True
+1254083,Royal Challengers Bengaluru,145,122,False
+1254084,Chennai Super Kings,218,128,False
+1254084,Mumbai Indians,219,128,True
+1254085,Rajasthan Royals,220,128,True
+1254085,Sunrisers Hyderabad,165,127,False
+1254086,Punjab Kings,166,122,False
+1254086,Delhi Capitals,167,109,True
+1254087,Royal Challengers Bengaluru,92,118,False
+1254087,Kolkata Knight Riders,94,65,True
+1254088,Mumbai Indians,235,125,True
+1254088,Sunrisers Hyderabad,193,124,False
+1254089,Chennai Super Kings,189,125,False
+1254089,Rajasthan Royals,190,111,True
+1254090,Royal Challengers Bengaluru,164,125,True
+1254090,Punjab Kings,158,126,False
+1254091,Sunrisers Hyderabad,134,125,False
+1254091,Chennai Super Kings,139,121,True
+1254092,Delhi Capitals,127,124,False
+1254092,Kolkata Knight Riders,130,113,True
+1254093,Rajasthan Royals,90,123,False
+1254093,Mumbai Indians,94,53,True
+1254094,Chennai Super Kings,134,127,False
+1254094,Punjab Kings,139,83,True
+1254095,Sunrisers Hyderabad,141,124,True
+1254095,Royal Challengers Bengaluru,137,122,False
+1254096,Mumbai Indians,155,128,False
+1254096,Kolkata Knight Riders,159,93,True
+1254097,Delhi Capitals,154,126,True
+1254097,Rajasthan Royals,121,125,False
+1254098,Kolkata Knight Riders,171,126,False
+1254098,Chennai Super Kings,172,123,True
+1254099,Punjab Kings,135,123,False
+1254099,Mumbai Indians,137,116,True
+1254100,Rajasthan Royals,164,123,False
+1254100,Sunrisers Hyderabad,167,119,True
+1254101,Delhi Capitals,164,126,False
+1254101,Royal Challengers Bengaluru,166,125,True
+1254102,Kolkata Knight Riders,165,124,False
+1254102,Punjab Kings,168,121,True
+1254103,Rajasthan Royals,149,123,False
+1254103,Royal Challengers Bengaluru,153,107,True
+1254104,Chennai Super Kings,156,125,True
+1254104,Mumbai Indians,136,124,False
+1254105,Sunrisers Hyderabad,134,126,False
+1254105,Delhi Capitals,139,111,True
+1254106,Kolkata Knight Riders,171,127,True
+1254106,Rajasthan Royals,85,97,False
+1254107,Punjab Kings,125,123,True
+1254107,Sunrisers Hyderabad,120,123,False
+1254108,Royal Challengers Bengaluru,165,127,True
+1254108,Mumbai Indians,111,114,False
+1254109,Sunrisers Hyderabad,115,121,False
+1254109,Kolkata Knight Riders,119,120,True
+1254110,Chennai Super Kings,136,126,False
+1254110,Delhi Capitals,139,124,True
+1254111,Rajasthan Royals,185,125,True
+1254111,Punjab Kings,183,128,False
+1254112,Mumbai Indians,129,126,False
+1254112,Delhi Capitals,132,119,True
+1254113,Royal Challengers Bengaluru,156,122,False
+1254113,Chennai Super Kings,157,113,True
+1254114,Delhi Capitals,172,126,False
+1254114,Chennai Super Kings,173,121,True
+1254115,Royal Challengers Bengaluru,138,126,False
+1254115,Kolkata Knight Riders,139,121,True
+1254116,Delhi Capitals,135,124,False
+1254116,Kolkata Knight Riders,136,124,True
+1254117,Chennai Super Kings,192,124,True
+1254117,Kolkata Knight Riders,165,129,False
+1304047,Chennai Super Kings,131,126,False
+1304047,Kolkata Knight Riders,133,111,True
+1304048,Mumbai Indians,177,122,False
+1304048,Delhi Capitals,179,117,True
+1304049,Royal Challengers Bengaluru,205,127,False
+1304049,Punjab Kings,208,126,True
+1304050,Lucknow Super Giants,158,124,False
+1304050,Gujarat Titans,161,121,True
+1304051,Rajasthan Royals,210,130,True
+1304051,Sunrisers Hyderabad,149,125,False
+1304052,Kolkata Knight Riders,128,115,False
+1304052,Royal Challengers Bengaluru,132,121,True
+1304053,Chennai Super Kings,210,123,False
+1304053,Lucknow Super Giants,211,129,True
+1304054,Punjab Kings,137,118,False
+1304054,Kolkata Knight Riders,141,92,True
+1304055,Rajasthan Royals,193,126,True
+1304055,Mumbai Indians,170,130,False
+1304056,Gujarat Titans,171,124,True
+1304056,Delhi Capitals,157,123,False
+1304057,Punjab Kings,180,133,True
+1304057,Chennai Super Kings,126,112,False
+1304058,Lucknow Super Giants,169,121,True
+1304058,Sunrisers Hyderabad,157,126,False
+1304059,Rajasthan Royals,169,125,False
+1304059,Royal Challengers Bengaluru,173,122,True
+1304060,Mumbai Indians,161,121,False
+1304060,Kolkata Knight Riders,162,97,True
+1304061,Delhi Capitals,149,124,False
+1304061,Lucknow Super Giants,155,122,True
+1304062,Punjab Kings,189,123,False
+1304062,Gujarat Titans,190,124,True
+1304063,Chennai Super Kings,154,125,False
+1304063,Sunrisers Hyderabad,155,110,True
+1304064,Mumbai Indians,151,122,False
+1304064,Royal Challengers Bengaluru,152,114,True
+1304065,Delhi Capitals,215,125,True
+1304065,Kolkata Knight Riders,171,121,False
+1304066,Rajasthan Royals,165,126,True
+1304066,Lucknow Super Giants,162,124,False
+1304067,Gujarat Titans,162,128,False
+1304067,Sunrisers Hyderabad,168,118,True
+1304068,Chennai Super Kings,216,127,True
+1304068,Royal Challengers Bengaluru,193,129,False
+1304069,Punjab Kings,198,127,True
+1304069,Mumbai Indians,186,125,False
+1304070,Gujarat Titans,192,124,True
+1304070,Rajasthan Royals,155,122,False
+1304071,Kolkata Knight Riders,175,123,False
+1304071,Sunrisers Hyderabad,176,111,True
+1304072,Lucknow Super Giants,199,124,True
+1304072,Mumbai Indians,181,125,False
+1304073,Royal Challengers Bengaluru,189,126,True
+1304073,Delhi Capitals,173,124,False
+1304074,Punjab Kings,151,126,False
+1304074,Sunrisers Hyderabad,152,116,True
+1304075,Chennai Super Kings,169,125,False
+1304075,Gujarat Titans,170,121,True
+1304076,Rajasthan Royals,217,127,True
+1304076,Kolkata Knight Riders,210,131,False
+1304077,Royal Challengers Bengaluru,181,127,True
+1304077,Lucknow Super Giants,163,127,False
+1304078,Punjab Kings,115,121,False
+1304078,Delhi Capitals,119,69,True
+1304079,Mumbai Indians,155,123,False
+1304079,Chennai Super Kings,156,127,True
+1304080,Rajasthan Royals,222,124,True
+1304080,Delhi Capitals,207,128,False
+1304081,Gujarat Titans,156,127,True
+1304081,Kolkata Knight Riders,148,126,False
+1304082,Royal Challengers Bengaluru,68,105,False
+1304082,Sunrisers Hyderabad,72,49,True
+1304083,Lucknow Super Giants,168,125,True
+1304083,Mumbai Indians,132,128,False
+1304084,Punjab Kings,187,133,True
+1304084,Chennai Super Kings,176,126,False
+1304085,Rajasthan Royals,144,123,True
+1304085,Royal Challengers Bengaluru,115,123,False
+1304086,Sunrisers Hyderabad,195,126,False
+1304086,Gujarat Titans,199,125,True
+1304087,Kolkata Knight Riders,146,124,False
+1304087,Delhi Capitals,150,117,True
+1304088,Lucknow Super Giants,153,124,True
+1304088,Punjab Kings,133,129,False
+1304089,Royal Challengers Bengaluru,170,122,False
+1304089,Gujarat Titans,174,122,True
+1304090,Rajasthan Royals,158,127,False
+1304090,Mumbai Indians,161,120,True
+1304091,Lucknow Super Giants,195,132,True
+1304091,Delhi Capitals,189,123,False
+1304092,Chennai Super Kings,202,123,True
+1304092,Sunrisers Hyderabad,189,123,False
+1304093,Rajasthan Royals,152,127,False
+1304093,Kolkata Knight Riders,158,124,True
+1304094,Gujarat Titans,143,129,False
+1304094,Punjab Kings,145,100,True
+1304095,Royal Challengers Bengaluru,173,127,True
+1304095,Chennai Super Kings,160,120,False
+1304096,Delhi Capitals,207,127,True
+1304096,Sunrisers Hyderabad,186,126,False
+1304097,Mumbai Indians,177,125,True
+1304097,Gujarat Titans,172,121,False
+1304098,Punjab Kings,189,131,False
+1304098,Rajasthan Royals,190,124,True
+1304099,Lucknow Super Giants,176,122,True
+1304099,Kolkata Knight Riders,101,89,False
+1304100,Royal Challengers Bengaluru,192,126,True
+1304100,Sunrisers Hyderabad,125,120,False
+1304101,Chennai Super Kings,208,131,True
+1304101,Delhi Capitals,117,108,False
+1304102,Kolkata Knight Riders,165,126,True
+1304102,Mumbai Indians,113,107,False
+1304103,Gujarat Titans,144,126,True
+1304103,Lucknow Super Giants,82,86,False
+1304104,Rajasthan Royals,160,125,False
+1304104,Delhi Capitals,161,114,True
+1304105,Chennai Super Kings,97,104,False
+1304105,Mumbai Indians,103,94,True
+1304106,Punjab Kings,209,124,True
+1304106,Royal Challengers Bengaluru,155,128,False
+1304107,Kolkata Knight Riders,177,128,True
+1304107,Sunrisers Hyderabad,123,123,False
+1304108,Chennai Super Kings,133,125,False
+1304108,Gujarat Titans,137,119,True
+1304109,Rajasthan Royals,178,123,True
+1304109,Lucknow Super Giants,154,128,False
+1304110,Delhi Capitals,159,123,True
+1304110,Punjab Kings,142,126,False
+1304111,Sunrisers Hyderabad,193,125,True
+1304111,Mumbai Indians,190,130,False
+1304112,Lucknow Super Giants,210,122,True
+1304112,Kolkata Knight Riders,208,127,False
+1304113,Gujarat Titans,168,122,False
+1304113,Royal Challengers Bengaluru,170,115,True
+1304114,Chennai Super Kings,150,125,False
+1304114,Rajasthan Royals,151,122,True
+1304115,Delhi Capitals,159,128,False
+1304115,Mumbai Indians,160,119,True
+1304116,Sunrisers Hyderabad,157,125,False
+1304116,Punjab Kings,160,95,True
+1312197,Rajasthan Royals,188,127,False
+1312197,Gujarat Titans,191,125,True
+1312198,Royal Challengers Bengaluru,207,126,True
+1312198,Lucknow Super Giants,193,130,False
+1312199,Royal Challengers Bengaluru,157,127,False
+1312199,Rajasthan Royals,161,109,True
+1312200,Rajasthan Royals,130,120,False
+1312200,Gujarat Titans,133,113,True
+1359475,Chennai Super Kings,178,121,False
+1359475,Gujarat Titans,182,122,True
+1359476,Punjab Kings,191,123,True
+1359476,Kolkata Knight Riders,146,99,False
+1359477,Lucknow Super Giants,193,125,True
+1359477,Delhi Capitals,143,126,False
+1359478,Rajasthan Royals,203,122,True
+1359478,Sunrisers Hyderabad,131,126,False
+1359479,Mumbai Indians,171,130,False
+1359479,Royal Challengers Bengaluru,172,102,True
+1359480,Chennai Super Kings,217,124,True
+1359480,Lucknow Super Giants,205,136,False
+1359481,Delhi Capitals,162,125,False
+1359481,Gujarat Titans,163,115,True
+1359482,Punjab Kings,197,127,True
+1359482,Rajasthan Royals,192,125,False
+1359483,Kolkata Knight Riders,204,129,True
+1359483,Royal Challengers Bengaluru,123,107,False
+1359484,Sunrisers Hyderabad,121,122,False
+1359484,Lucknow Super Giants,127,101,True
+1359485,Rajasthan Royals,199,124,True
+1359485,Delhi Capitals,142,128,False
+1359486,Mumbai Indians,157,125,False
+1359486,Chennai Super Kings,159,114,True
+1359487,Gujarat Titans,204,127,False
+1359487,Kolkata Knight Riders,207,123,True
+1359488,Punjab Kings,143,125,False
+1359488,Sunrisers Hyderabad,145,103,True
+1359489,Royal Challengers Bengaluru,212,124,False
+1359489,Lucknow Super Giants,213,129,True
+1359490,Delhi Capitals,172,124,False
+1359490,Mumbai Indians,173,122,True
+1359491,Rajasthan Royals,175,126,True
+1359491,Chennai Super Kings,172,127,False
+1359492,Punjab Kings,153,129,False
+1359492,Gujarat Titans,154,119,True
+1359493,Sunrisers Hyderabad,228,128,True
+1359493,Kolkata Knight Riders,205,128,False
+1359494,Royal Challengers Bengaluru,174,124,True
+1359494,Delhi Capitals,151,123,False
+1359495,Lucknow Super Giants,159,127,False
+1359495,Punjab Kings,161,122,True
+1359496,Kolkata Knight Riders,185,128,False
+1359496,Mumbai Indians,186,109,True
+1359497,Gujarat Titans,177,124,False
+1359497,Rajasthan Royals,179,118,True
+1359498,Chennai Super Kings,226,126,True
+1359498,Royal Challengers Bengaluru,218,126,False
+1359499,Mumbai Indians,192,122,True
+1359499,Sunrisers Hyderabad,178,127,False
+1359500,Lucknow Super Giants,154,122,True
+1359500,Rajasthan Royals,144,123,False
+1359501,Royal Challengers Bengaluru,174,123,True
+1359501,Punjab Kings,150,113,False
+1359502,Kolkata Knight Riders,127,130,False
+1359502,Delhi Capitals,128,121,True
+1359503,Sunrisers Hyderabad,134,122,False
+1359503,Chennai Super Kings,138,112,True
+1359504,Gujarat Titans,135,120,True
+1359504,Lucknow Super Giants,128,121,False
+1359505,Punjab Kings,214,129,True
+1359505,Mumbai Indians,201,123,False
+1359506,Royal Challengers Bengaluru,189,125,True
+1359506,Rajasthan Royals,182,126,False
+1359507,Chennai Super Kings,235,123,True
+1359507,Kolkata Knight Riders,186,129,False
+1359508,Delhi Capitals,144,121,True
+1359508,Sunrisers Hyderabad,137,121,False
+1359509,Gujarat Titans,207,125,True
+1359509,Mumbai Indians,152,121,False
+1359510,Kolkata Knight Riders,200,125,True
+1359510,Royal Challengers Bengaluru,179,122,False
+1359511,Rajasthan Royals,202,124,True
+1359511,Chennai Super Kings,170,121,False
+1359512,Lucknow Super Giants,257,129,True
+1359512,Punjab Kings,201,128,False
+1359513,Kolkata Knight Riders,179,123,False
+1359513,Gujarat Titans,180,110,True
+1359514,Sunrisers Hyderabad,197,129,True
+1359514,Delhi Capitals,188,123,False
+1359515,Chennai Super Kings,200,127,False
+1359515,Punjab Kings,201,125,True
+1359516,Rajasthan Royals,212,133,False
+1359516,Mumbai Indians,214,125,True
+1359517,Royal Challengers Bengaluru,126,122,True
+1359517,Lucknow Super Giants,108,124,False
+1359518,Delhi Capitals,130,124,True
+1359518,Gujarat Titans,125,124,False
+1359519,Lucknow Super Giants,125,118,False
+1359519,Chennai Super Kings,0,0,False
+1359520,Punjab Kings,214,128,False
+1359520,Mumbai Indians,216,116,True
+1359521,Kolkata Knight Riders,171,127,True
+1359521,Sunrisers Hyderabad,166,127,False
+1359522,Rajasthan Royals,118,114,False
+1359522,Gujarat Titans,119,84,True
+1359523,Mumbai Indians,139,122,False
+1359523,Chennai Super Kings,140,109,True
+1359524,Royal Challengers Bengaluru,181,125,False
+1359524,Delhi Capitals,187,103,True
+1359525,Gujarat Titans,227,125,True
+1359525,Lucknow Super Giants,171,125,False
+1359526,Rajasthan Royals,214,125,False
+1359526,Sunrisers Hyderabad,217,125,True
+1359527,Punjab Kings,179,126,False
+1359527,Kolkata Knight Riders,182,123,True
+1359528,Royal Challengers Bengaluru,199,123,False
+1359528,Mumbai Indians,200,106,True
+1359529,Chennai Super Kings,167,130,True
+1359529,Delhi Capitals,140,125,False
+1359530,Kolkata Knight Riders,149,121,False
+1359530,Rajasthan Royals,151,82,True
+1359531,Mumbai Indians,218,120,True
+1359531,Gujarat Titans,191,123,False
+1359532,Sunrisers Hyderabad,182,123,False
+1359532,Lucknow Super Giants,185,121,True
+1359533,Punjab Kings,167,127,True
+1359533,Delhi Capitals,136,123,False
+1359534,Royal Challengers Bengaluru,171,124,True
+1359534,Rajasthan Royals,59,65,False
+1359535,Chennai Super Kings,144,125,False
+1359535,Kolkata Knight Riders,147,118,True
+1359536,Gujarat Titans,188,128,True
+1359536,Sunrisers Hyderabad,154,125,False
+1359537,Lucknow Super Giants,177,125,True
+1359537,Mumbai Indians,172,130,False
+1359538,Delhi Capitals,213,125,True
+1359538,Punjab Kings,198,124,False
+1359539,Sunrisers Hyderabad,186,124,False
+1359539,Royal Challengers Bengaluru,187,121,True
+1359540,Punjab Kings,187,126,False
+1359540,Rajasthan Royals,189,126,True
+1359541,Chennai Super Kings,223,129,True
+1359541,Delhi Capitals,146,127,False
+1359542,Lucknow Super Giants,176,127,True
+1359542,Kolkata Knight Riders,175,125,False
+1359543,Sunrisers Hyderabad,200,126,False
+1359543,Mumbai Indians,201,113,True
+1359544,Royal Challengers Bengaluru,197,125,False
+1359544,Gujarat Titans,198,123,True
+1370350,Chennai Super Kings,172,122,True
+1370350,Gujarat Titans,157,132,False
+1370351,Mumbai Indians,182,126,True
+1370351,Lucknow Super Giants,101,102,False
+1370352,Gujarat Titans,233,127,True
+1370352,Mumbai Indians,171,115,False
+1370353,Gujarat Titans,214,122,False
+1370353,Chennai Super Kings,171,94,True
+1422119,Royal Challengers Bengaluru,173,129,False
+1422119,Chennai Super Kings,176,120,True
+1422120,Delhi Capitals,174,124,False
+1422120,Punjab Kings,177,122,True
+1422121,Kolkata Knight Riders,208,128,True
+1422121,Sunrisers Hyderabad,204,122,False
+1422122,Rajasthan Royals,193,127,True
+1422122,Lucknow Super Giants,173,124,False
+1422123,Gujarat Titans,168,124,True
+1422123,Mumbai Indians,162,123,False
+1422124,Punjab Kings,176,125,False
+1422124,Royal Challengers Bengaluru,178,123,True
+1422125,Chennai Super Kings,206,125,True
+1422125,Gujarat Titans,143,128,False
+1422126,Sunrisers Hyderabad,277,130,True
+1422126,Mumbai Indians,246,126,False
+1422127,Rajasthan Royals,185,125,True
+1422127,Delhi Capitals,173,124,False
+1422128,Royal Challengers Bengaluru,182,123,False
+1422128,Kolkata Knight Riders,186,105,True
+1422129,Lucknow Super Giants,199,125,True
+1422129,Punjab Kings,178,122,False
+1422130,Sunrisers Hyderabad,162,122,False
+1422130,Gujarat Titans,168,119,True
+1422131,Delhi Capitals,191,127,True
+1422131,Chennai Super Kings,171,129,False
+1422132,Mumbai Indians,125,124,False
+1422132,Rajasthan Royals,127,99,True
+1422133,Lucknow Super Giants,181,126,True
+1422133,Royal Challengers Bengaluru,153,122,False
+1422134,Kolkata Knight Riders,272,134,True
+1422134,Delhi Capitals,166,110,False
+1422135,Gujarat Titans,199,124,False
+1422135,Punjab Kings,200,123,True
+1422136,Chennai Super Kings,165,121,False
+1422136,Sunrisers Hyderabad,166,111,True
+1422137,Royal Challengers Bengaluru,183,125,False
+1422137,Rajasthan Royals,189,118,True
+1422138,Mumbai Indians,234,129,True
+1422138,Delhi Capitals,205,122,False
+1422139,Lucknow Super Giants,163,121,True
+1422139,Gujarat Titans,130,122,False
+1426260,Kolkata Knight Riders,137,128,False
+1426260,Chennai Super Kings,141,109,True
+1426261,Sunrisers Hyderabad,182,125,True
+1426261,Punjab Kings,180,126,False
+1426262,Rajasthan Royals,196,127,False
+1426262,Gujarat Titans,199,128,True
+1426263,Royal Challengers Bengaluru,196,128,False
+1426263,Mumbai Indians,199,96,True
+1426264,Lucknow Super Giants,167,127,False
+1426264,Delhi Capitals,170,112,True
+1426265,Punjab Kings,147,125,False
+1426265,Rajasthan Royals,152,122,True
+1426266,Lucknow Super Giants,161,127,False
+1426266,Kolkata Knight Riders,162,105,True
+1426267,Chennai Super Kings,206,125,True
+1426267,Mumbai Indians,186,124,False
+1426268,Sunrisers Hyderabad,287,132,True
+1426268,Royal Challengers Bengaluru,262,133,False
+1426269,Kolkata Knight Riders,223,129,False
+1426269,Rajasthan Royals,224,130,True
+1426270,Gujarat Titans,89,112,False
+1426270,Delhi Capitals,92,55,True
+1426271,Mumbai Indians,192,125,True
+1426271,Punjab Kings,183,127,False
+1426272,Chennai Super Kings,176,123,False
+1426272,Lucknow Super Giants,180,124,True
+1426273,Sunrisers Hyderabad,266,123,True
+1426273,Delhi Capitals,199,122,False
+1426274,Kolkata Knight Riders,222,129,True
+1426274,Royal Challengers Bengaluru,221,124,False
+1426275,Punjab Kings,142,123,False
+1426275,Gujarat Titans,146,116,True
+1426276,Mumbai Indians,179,128,False
+1426276,Rajasthan Royals,183,117,True
+1426277,Chennai Super Kings,210,122,False
+1426277,Lucknow Super Giants,213,123,True
+1426278,Delhi Capitals,224,123,True
+1426278,Gujarat Titans,220,124,False
+1426279,Royal Challengers Bengaluru,206,125,True
+1426279,Sunrisers Hyderabad,171,129,False
+1426280,Kolkata Knight Riders,261,131,False
+1426280,Punjab Kings,262,116,True
+1426281,Delhi Capitals,257,127,True
+1426281,Mumbai Indians,247,128,False
+1426282,Lucknow Super Giants,196,128,False
+1426282,Rajasthan Royals,199,116,True
+1426283,Gujarat Titans,200,130,False
+1426283,Royal Challengers Bengaluru,206,100,True
+1426284,Chennai Super Kings,212,126,True
+1426284,Sunrisers Hyderabad,134,116,False
+1426285,Delhi Capitals,153,126,False
+1426285,Kolkata Knight Riders,157,101,True
+1426286,Mumbai Indians,144,126,False
+1426286,Lucknow Super Giants,145,122,True
+1426287,Chennai Super Kings,162,129,False
+1426287,Punjab Kings,163,116,True
+1426288,Sunrisers Hyderabad,201,128,True
+1426288,Rajasthan Royals,200,132,False
+1426289,Kolkata Knight Riders,169,125,True
+1426289,Mumbai Indians,145,118,False
+1426290,Gujarat Titans,147,121,False
+1426290,Royal Challengers Bengaluru,152,83,True
+1426291,Chennai Super Kings,167,125,True
+1426291,Punjab Kings,139,124,False
+1426292,Kolkata Knight Riders,235,129,True
+1426292,Lucknow Super Giants,137,103,False
+1426293,Sunrisers Hyderabad,173,131,False
+1426293,Mumbai Indians,174,108,True
+1426294,Delhi Capitals,221,121,True
+1426294,Rajasthan Royals,201,131,False
+1426295,Lucknow Super Giants,165,123,False
+1426295,Sunrisers Hyderabad,167,60,True
+1426296,Royal Challengers Bengaluru,241,127,True
+1426296,Punjab Kings,181,105,False
+1426297,Gujarat Titans,231,125,True
+1426297,Chennai Super Kings,196,124,False
+1426298,Kolkata Knight Riders,157,99,True
+1426298,Mumbai Indians,139,102,False
+1426299,Rajasthan Royals,141,124,False
+1426299,Chennai Super Kings,145,115,True
+1426300,Royal Challengers Bengaluru,187,127,True
+1426300,Delhi Capitals,140,120,False
+1426302,Delhi Capitals,208,128,True
+1426302,Lucknow Super Giants,189,125,False
+1426303,Rajasthan Royals,144,121,False
+1426303,Punjab Kings,145,114,True
+1426305,Lucknow Super Giants,214,130,True
+1426305,Mumbai Indians,196,129,False
+1426306,Royal Challengers Bengaluru,218,127,True
+1426306,Chennai Super Kings,191,126,False
+1426307,Punjab Kings,214,125,False
+1426307,Sunrisers Hyderabad,215,122,True
+1426309,Sunrisers Hyderabad,159,124,False
+1426309,Kolkata Knight Riders,164,84,True
+1426310,Royal Challengers Bengaluru,172,122,False
+1426310,Rajasthan Royals,174,119,True
+1426311,Sunrisers Hyderabad,175,127,True
+1426311,Rajasthan Royals,139,124,False
+1426312,Sunrisers Hyderabad,113,117,False
+1426312,Kolkata Knight Riders,114,67,True
+1473438,Kolkata Knight Riders,174,124,False
+1473438,Royal Challengers Bengaluru,177,99,True
+1473439,Sunrisers Hyderabad,286,133,True
+1473439,Rajasthan Royals,242,129,False
+1473440,Mumbai Indians,155,125,False
+1473440,Chennai Super Kings,158,118,True
+1473441,Lucknow Super Giants,209,125,False
+1473441,Delhi Capitals,211,121,True
+1473442,Punjab Kings,243,126,True
+1473442,Gujarat Titans,232,128,False
+1473443,Rajasthan Royals,151,124,False
+1473443,Kolkata Knight Riders,153,110,True
+1473444,Sunrisers Hyderabad,190,127,False
+1473444,Lucknow Super Giants,193,106,True
+1473445,Royal Challengers Bengaluru,196,128,True
+1473445,Chennai Super Kings,146,122,False
+1473446,Gujarat Titans,196,130,True
+1473446,Mumbai Indians,160,127,False
+1473447,Sunrisers Hyderabad,163,119,False
+1473447,Delhi Capitals,166,98,True
+1473448,Rajasthan Royals,182,127,True
+1473448,Chennai Super Kings,176,123,False
+1473449,Kolkata Knight Riders,116,102,False
+1473449,Mumbai Indians,121,80,True
+1473450,Lucknow Super Giants,171,124,False
+1473450,Punjab Kings,177,101,True
+1473451,Royal Challengers Bengaluru,169,123,False
+1473451,Gujarat Titans,170,108,True
+1473452,Kolkata Knight Riders,200,123,True
+1473452,Sunrisers Hyderabad,120,105,False
+1473453,Lucknow Super Giants,203,128,True
+1473453,Mumbai Indians,191,124,False
+1473454,Delhi Capitals,183,123,True
+1473454,Chennai Super Kings,158,128,False
+1473455,Rajasthan Royals,205,125,True
+1473455,Punjab Kings,155,128,False
+1473456,Lucknow Super Giants,238,128,True
+1473456,Kolkata Knight Riders,234,136,False
+1473457,Sunrisers Hyderabad,152,122,False
+1473457,Gujarat Titans,153,103,True
+1473458,Royal Challengers Bengaluru,221,127,True
+1473458,Mumbai Indians,209,126,False
+1473459,Punjab Kings,219,124,True
+1473459,Chennai Super Kings,201,129,False
+1473460,Gujarat Titans,217,135,True
+1473460,Rajasthan Royals,159,125,False
+1473461,Royal Challengers Bengaluru,163,126,False
+1473461,Delhi Capitals,169,110,True
+1473462,Chennai Super Kings,103,124,False
+1473462,Kolkata Knight Riders,107,65,True
+1473463,Gujarat Titans,180,129,False
+1473463,Lucknow Super Giants,186,120,True
+1473464,Punjab Kings,245,128,False
+1473464,Sunrisers Hyderabad,247,120,True
+1473465,Rajasthan Royals,173,122,False
+1473465,Royal Challengers Bengaluru,175,111,True
+1473466,Mumbai Indians,205,124,True
+1473466,Delhi Capitals,193,119,False
+1473467,Lucknow Super Giants,166,128,False
+1473467,Chennai Super Kings,168,126,True
+1473468,Punjab Kings,111,96,True
+1473468,Kolkata Knight Riders,95,92,False
+1473469,Delhi Capitals,201,132,False
+1473469,Rajasthan Royals,199,130,False
+1473470,Sunrisers Hyderabad,162,129,False
+1473470,Mumbai Indians,166,113,True
+1473471,Royal Challengers Bengaluru,95,85,False
+1473471,Punjab Kings,98,75,True
+1473472,Delhi Capitals,203,129,False
+1473472,Gujarat Titans,204,121,True
+1473473,Lucknow Super Giants,180,125,True
+1473473,Rajasthan Royals,178,121,False
+1473474,Punjab Kings,157,123,False
+1473474,Royal Challengers Bengaluru,159,114,True
+1473475,Chennai Super Kings,176,126,False
+1473475,Mumbai Indians,177,102,True
+1473476,Gujarat Titans,198,124,True
+1473476,Kolkata Knight Riders,159,125,False
+1473477,Lucknow Super Giants,159,121,False
+1473477,Delhi Capitals,161,110,True
+1473478,Sunrisers Hyderabad,143,123,False
+1473478,Mumbai Indians,146,95,True
+1473479,Royal Challengers Bengaluru,205,130,True
+1473479,Rajasthan Royals,194,123,False
+1473480,Chennai Super Kings,154,123,False
+1473480,Sunrisers Hyderabad,155,121,True
+1473481,Punjab Kings,201,123,False
+1473481,Kolkata Knight Riders,7,7,False
+1473482,Mumbai Indians,215,125,True
+1473482,Lucknow Super Giants,161,126,False
+1473483,Delhi Capitals,162,123,False
+1473483,Royal Challengers Bengaluru,165,115,True
+1473484,Gujarat Titans,209,128,False
+1473484,Rajasthan Royals,212,99,True
+1473485,Kolkata Knight Riders,204,132,True
+1473485,Delhi Capitals,190,125,False
+1473486,Chennai Super Kings,190,128,False
+1473486,Punjab Kings,194,121,True
+1473487,Mumbai Indians,217,126,True
+1473487,Rajasthan Royals,117,100,False
+1473488,Gujarat Titans,224,123,True
+1473488,Sunrisers Hyderabad,186,127,False
+1473489,Royal Challengers Bengaluru,213,125,True
+1473489,Chennai Super Kings,211,121,False
+1473490,Kolkata Knight Riders,206,127,True
+1473490,Rajasthan Royals,205,125,False
+1473491,Punjab Kings,236,125,True
+1473491,Lucknow Super Giants,199,128,False
+1473492,Delhi Capitals,133,123,False
+1473492,Sunrisers Hyderabad,0,0,False
+1473493,Mumbai Indians,155,121,False
+1473493,Gujarat Titans,147,123,True
+1473494,Kolkata Knight Riders,179,122,False
+1473494,Chennai Super Kings,183,122,True
+1473495,Punjab Kings,122,63,False
+1473495,Delhi Capitals,0,0,False
+1473497,Punjab Kings,219,125,True
+1473497,Rajasthan Royals,209,123,False
+1473498,Delhi Capitals,199,124,False
+1473498,Gujarat Titans,205,117,True
+1473499,Lucknow Super Giants,205,131,False
+1473499,Sunrisers Hyderabad,206,119,True
+1473500,Chennai Super Kings,187,129,False
+1473500,Rajasthan Royals,188,107,True
+1473501,Mumbai Indians,180,121,True
+1473501,Delhi Capitals,121,111,False
+1473502,Lucknow Super Giants,235,127,True
+1473502,Gujarat Titans,202,127,False
+1473503,Sunrisers Hyderabad,231,123,True
+1473503,Royal Challengers Bengaluru,189,124,False
+1473504,Chennai Super Kings,230,125,True
+1473504,Gujarat Titans,147,117,False
+1473505,Sunrisers Hyderabad,278,131,True
+1473505,Kolkata Knight Riders,168,116,False
+1473506,Mumbai Indians,184,127,False
+1473506,Punjab Kings,187,118,True
+1473507,Lucknow Super Giants,227,127,False
+1473507,Royal Challengers Bengaluru,230,117,True
+1473508,Punjab Kings,101,87,False
+1473508,Royal Challengers Bengaluru,106,60,True
+1473509,Mumbai Indians,228,124,True
+1473509,Gujarat Titans,208,124,False
+1473510,Mumbai Indians,203,126,False
+1473510,Punjab Kings,207,118,True
+1473511,Royal Challengers Bengaluru,190,129,True
+1473511,Punjab Kings,184,123,False
+1485779,Punjab Kings,206,128,False
+1485779,Delhi Capitals,208,121,True
+1527674,Sunrisers Hyderabad,201,124,False
+1527674,Royal Challengers Bengaluru,203,101,True
+1527675,Kolkata Knight Riders,220,128,False
+1527675,Mumbai Indians,224,119,True
+1527676,Chennai Super Kings,127,125,False
+1527676,Rajasthan Royals,128,74,True
+1527677,Gujarat Titans,162,131,False
+1527677,Punjab Kings,165,119,True
+1527678,Lucknow Super Giants,141,114,False
+1527678,Delhi Capitals,145,115,True
+1527679,Sunrisers Hyderabad,226,129,True
+1527679,Kolkata Knight Riders,161,102,False
+1527680,Chennai Super Kings,209,131,False
+1527680,Punjab Kings,210,120,True
+1527681,Mumbai Indians,162,124,False
+1527681,Delhi Capitals,164,113,True
+1527682,Rajasthan Royals,210,129,True
+1527682,Gujarat Titans,204,124,False
+1527683,Sunrisers Hyderabad,156,123,False
+1527683,Lucknow Super Giants,160,119,True
+1527684,Royal Challengers Bengaluru,250,124,True
+1527684,Chennai Super Kings,207,123,False
+1527685,Kolkata Knight Riders,25,22,False
+1527685,Punjab Kings,0,0,False
+1527686,Rajasthan Royals,150,72,True
+1527686,Mumbai Indians,123,72,False
+1527687,Gujarat Titans,210,126,True
+1527687,Delhi Capitals,209,128,False
+1527688,Kolkata Knight Riders,181,126,False
+1527688,Lucknow Super Giants,182,127,True
+1527689,Royal Challengers Bengaluru,201,123,False
+1527689,Rajasthan Royals,202,110,True
+1527690,Sunrisers Hyderabad,219,132,False
+1527690,Punjab Kings,223,118,True
+1527691,Chennai Super Kings,212,123,True
+1527691,Delhi Capitals,189,129,False
+1527692,Lucknow Super Giants,164,122,False
+1527692,Gujarat Titans,165,115,True
+1527693,Royal Challengers Bengaluru,240,132,True
+1527693,Mumbai Indians,222,130,False
+1529264,Sunrisers Hyderabad,216,128,True
+1529264,Rajasthan Royals,159,123,False
+1529265,Chennai Super Kings,192,130,True
+1529265,Kolkata Knight Riders,160,125,False
+1529266,Lucknow Super Giants,146,124,False
+1529266,Royal Challengers Bengaluru,149,92,True
+1529267,Mumbai Indians,195,124,False
+1529267,Punjab Kings,198,109,True
+1529268,Kolkata Knight Riders,180,127,False
+1529268,Gujarat Titans,181,122,True
+1529269,Royal Challengers Bengaluru,175,129,False
+1529269,Delhi Capitals,179,122,True
+1529270,Sunrisers Hyderabad,194,124,True
+1529270,Chennai Super Kings,184,133,False
+1529271,Rajasthan Royals,155,130,False
+1529271,Kolkata Knight Riders,161,126,True
+1529272,Punjab Kings,254,126,True
+1529272,Lucknow Super Giants,200,127,False
+1529273,Mumbai Indians,199,122,True
+1529273,Gujarat Titans,100,102,False
+1529274,Sunrisers Hyderabad,242,128,True
+1529274,Delhi Capitals,195,127,False
+1529275,Rajasthan Royals,159,124,True
+1529275,Lucknow Super Giants,119,113,False
+1529276,Chennai Super Kings,207,128,True
+1529276,Mumbai Indians,104,119,False
+1529277,Gujarat Titans,205,123,False
+1529277,Royal Challengers Bengaluru,206,116,True
+1529278,Delhi Capitals,264,127,False
+1529278,Punjab Kings,265,126,True
+1529279,Rajasthan Royals,228,126,False
+1529279,Sunrisers Hyderabad,229,120,True
+1529280,Chennai Super Kings,158,126,False
+1529280,Gujarat Titans,162,102,True
+1529281,Kolkata Knight Riders,159,128,False
+1529281,Lucknow Super Giants,156,128,False
+1529282,Delhi Capitals,75,103,False
+1529282,Royal Challengers Bengaluru,77,39,True
+1529283,Punjab Kings,222,121,False
+1529283,Rajasthan Royals,228,121,True
+1529284,Mumbai Indians,243,127,False
+1529284,Sunrisers Hyderabad,249,120,True
+1529285,Royal Challengers Bengaluru,155,118,False
+1529285,Gujarat Titans,158,99,True
+1529286,Rajasthan Royals,225,126,False
+1529286,Delhi Capitals,226,123,True
+1529287,Mumbai Indians,159,121,False
+1529287,Chennai Super Kings,160,113,True
+1529288,Sunrisers Hyderabad,165,118,False
+1529288,Kolkata Knight Riders,169,117,True
+1529289,Punjab Kings,163,126,False
+1529289,Gujarat Titans,167,122,True
+1529290,Lucknow Super Giants,228,130,False
+1529290,Mumbai Indians,229,116,True
+1529291,Delhi Capitals,155,122,False
+1529291,Chennai Super Kings,159,108,True
+1529292,Sunrisers Hyderabad,235,125,True
+1529292,Punjab Kings,202,129,False
+1529293,Lucknow Super Giants,209,119,True
+1529293,Royal Challengers Bengaluru,203,122,False
+1529294,Delhi Capitals,142,122,False
+1529294,Kolkata Knight Riders,147,86,True
+1529295,Gujarat Titans,229,133,True
+1529295,Rajasthan Royals,152,101,False
+1529296,Lucknow Super Giants,203,126,False
+1529296,Chennai Super Kings,208,124,True
+1529297,Mumbai Indians,166,123,False
+1529297,Royal Challengers Bengaluru,167,131,True
+1529298,Punjab Kings,210,129,False
+1529298,Delhi Capitals,216,123,True
+1529299,Gujarat Titans,168,126,True
+1529299,Sunrisers Hyderabad,86,90,False
+1529300,Kolkata Knight Riders,192,122,False
+1529300,Royal Challengers Bengaluru,194,124,True
+1529301,Punjab Kings,200,127,False
+1529301,Mumbai Indians,205,122,True
+1529302,Chennai Super Kings,187,127,False
+1529302,Lucknow Super Giants,188,103,True
+1529303,Kolkata Knight Riders,247,125,True
+1529303,Gujarat Titans,218,127,False
+1529304,Royal Challengers Bengaluru,222,126,True
+1529304,Punjab Kings,199,128,False
+1529305,Rajasthan Royals,193,126,False
+1529305,Delhi Capitals,197,123,True
+1529306,Chennai Super Kings,180,129,False
+1529306,Sunrisers Hyderabad,181,120,True
+1529307,Lucknow Super Giants,220,130,False
+1529307,Rajasthan Royals,225,121,True
+1529308,Mumbai Indians,147,123,False
+1529308,Kolkata Knight Riders,148,118,True
+1529309,Gujarat Titans,229,129,True
+1529309,Chennai Super Kings,140,86,False
+1529310,Sunrisers Hyderabad,255,133,True
+1529310,Royal Challengers Bengaluru,200,125,False
+1529311,Lucknow Super Giants,196,128,False
+1529311,Punjab Kings,200,111,True
+1529312,Rajasthan Royals,205,126,True
+1529312,Mumbai Indians,175,125,False
+1529313,Delhi Capitals,203,129,True
+1529313,Kolkata Knight Riders,163,116,False
+1535462,Royal Challengers Bengaluru,254,125,True
+1535462,Gujarat Titans,162,124,False
+1535463,Rajasthan Royals,243,124,True
+1535463,Sunrisers Hyderabad,196,128,False
+1535464,Rajasthan Royals,214,122,False
+1535464,Gujarat Titans,219,119,True
+1535465,Gujarat Titans,155,124,False
+1535465,Royal Challengers Bengaluru,161,109,True
