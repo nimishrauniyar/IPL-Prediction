@@ -53,8 +53,8 @@ def fit_and_evaluate(features: pd.DataFrame | None = None) -> dict:
     features = features if features is not None else pd.read_csv(PROCESSED_DIR / "ipl_match_features.csv")
     features["year"] = pd.to_datetime(features["date"]).dt.year
     
-    # Exponential Time-Decay: More recent matches are weighted closer to 1.0
-    weights_array = np.exp((features["year"] - 2026) * 0.15).values
+    # Smoothed Time-Decay: Less aggressive decay so teams like RCB/PBKS retain their historical momentum
+    weights_array = np.exp((features["year"] - 2026) * 0.05).values
 
     train = features[features.year <= 2024]
     validation = features[features.year == 2025]
