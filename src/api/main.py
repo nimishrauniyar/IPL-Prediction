@@ -15,7 +15,7 @@ from src.insights import build_match_insights
 app = FastAPI(title="IPL Match Intelligence API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
     allow_methods=["GET"],
     allow_headers=["*"],
 )

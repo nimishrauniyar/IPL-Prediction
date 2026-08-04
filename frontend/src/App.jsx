@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 
+const API_BASE = import.meta.env.VITE_API_URL || ''
 const defaultTeams = ['Chennai Super Kings', 'Mumbai Indians']
 
 function TeamSelect({ label, value, teams, onChange, excluded }) {
@@ -74,13 +75,13 @@ function App() {
   const [theme, setTheme] = useState('aurora')
 
   useEffect(() => {
-    fetch('/api/teams').then((response) => response.json()).then((data) => {
+    fetch(`${API_BASE}/api/teams`).then((response) => response.json()).then((data) => {
       if (data.teams?.length) setTeams(data.teams)
     }).catch(() => setError('Start the Python API to load the current IPL data.'))
   }, [])
 
   useEffect(() => {
-    fetch('/api/seasons').then((response) => response.json()).then((data) => {
+    fetch(`${API_BASE}/api/seasons`).then((response) => response.json()).then((data) => {
       setSeasons(data.seasons || [])
       if (data.seasons?.length) setSeason(data.seasons[0])
     }).catch(() => setError('Start the Python API to load season fixtures.'))
@@ -88,7 +89,7 @@ function App() {
 
   useEffect(() => {
     if (!season) return
-    fetch(`/api/fixtures?season=${encodeURIComponent(season)}`).then((response) => response.json()).then((data) => {
+    fetch(`${API_BASE}/api/fixtures?season=${encodeURIComponent(season)}`).then((response) => response.json()).then((data) => {
       if (!data.fixtures) throw new Error(data.detail || 'Unable to load fixtures.')
       setFixtures(data.fixtures); setSelectedFixture(null)
     }).catch((requestError) => setError(requestError.message))
@@ -102,13 +103,13 @@ function App() {
   async function predict() {
     setLoading(true); setError(''); setH2hData(null);
     try {
-      const response = await fetch(`/api/insights?team_a=${encodeURIComponent(teamA)}&team_b=${encodeURIComponent(teamB)}`)
+      const response = await fetch(`${API_BASE}/api/insights?team_a=${encodeURIComponent(teamA)}&team_b=${encodeURIComponent(teamB)}`)
       const data = await response.json()
       if (!response.ok) throw new Error(data.detail || 'Unable to build prediction.')
       setReport(data)
 
       try {
-        const h2hResponse = await fetch(`/api/h2h?team_a=${encodeURIComponent(teamA)}&team_b=${encodeURIComponent(teamB)}`)
+        const h2hResponse = await fetch(`${API_BASE}/api/h2h?team_a=${encodeURIComponent(teamA)}&team_b=${encodeURIComponent(teamB)}`)
         if (h2hResponse.ok) {
           const h2hJson = await h2hResponse.json()
           setH2hData(h2hJson)
