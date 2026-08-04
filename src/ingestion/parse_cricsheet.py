@@ -48,7 +48,13 @@ def parse_archive(archive: Path) -> dict[str, pd.DataFrame]:
     for match_id, payload in _iter_json(archive):
         info = payload["info"]
         season_raw = info.get("season")
-        season_year = int(str(season_raw)[:4]) if season_raw else 0
+        match_date = info.get("dates", [None])[0]
+        if season_raw:
+            season_year = int(str(season_raw)[:4])
+        elif match_date:
+            season_year = int(str(match_date)[:4])
+        else:
+            season_year = 0
         if season_year < 2018:
             continue
 

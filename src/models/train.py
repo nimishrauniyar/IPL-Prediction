@@ -12,6 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, brier_score_loss, log_loss, roc_auc_score
 from sklearn.model_selection import TimeSeriesSplit, RandomizedSearchCV
+from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
@@ -45,6 +46,11 @@ def model_definitions() -> dict[str, dict]:
             "model": XGBClassifier(eval_metric="logloss", random_state=42),
             "grid": {"n_estimators": [100, 200, 300], "max_depth": [2, 3, 5], "learning_rate": [0.01, 0.05, 0.1]},
             "weight_param": "sample_weight"
+        },
+        "support_vector_machine": {
+            "model": Pipeline([("scale", StandardScaler()), ("clf", SVC(probability=True, random_state=42))]),
+            "grid": {"clf__C": [0.1, 1.0, 10.0], "clf__gamma": ["scale", "auto"]},
+            "weight_param": "clf__sample_weight"
         },
     }
 

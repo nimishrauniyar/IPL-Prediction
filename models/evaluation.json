@@ -23,17 +23,26 @@
       "brier_score": 0.2516
     }
   },
+  "support_vector_machine": {
+    "test_2026": {
+      "accuracy": 0.5694,
+      "roc_auc": 0.537,
+      "log_loss": 0.6773,
+      "brier_score": 0.2423
+    }
+  },
   "ensemble_model": {
     "test_2026": {
       "accuracy": 0.625,
-      "roc_auc": 0.4387,
-      "log_loss": 0.6816,
-      "brier_score": 0.2442
+      "roc_auc": 0.465,
+      "log_loss": 0.6813,
+      "brier_score": 0.2441
     },
     "meta_weights": {
-      "logistic_regression": 0.15311768740559348,
-      "random_forest": 0.10068774128863633,
-      "xgboost": 0.20349086154941642
+      "logistic_regression": 0.15162598696007376,
+      "random_forest": 0.09567260788744035,
+      "xgboost": 0.2041239008589766,
+      "support_vector_machine": 0.08587031728009475
     }
   }
 }
