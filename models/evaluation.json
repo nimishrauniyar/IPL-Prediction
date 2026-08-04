@@ -1,11 +1,5 @@
 {
   "logistic_regression": {
-    "validation_2025": {
-      "accuracy": 0.5,
-      "roc_auc": 0.5389,
-      "log_loss": 0.6902,
-      "brier_score": 0.2487
-    },
     "test_2026": {
       "accuracy": 0.4444,
       "roc_auc": 0.4403,
@@ -14,12 +8,6 @@
     }
   },
   "random_forest": {
-    "validation_2025": {
-      "accuracy": 0.5286,
-      "roc_auc": 0.5291,
-      "log_loss": 0.7111,
-      "brier_score": 0.2587
-    },
     "test_2026": {
       "accuracy": 0.4444,
       "roc_auc": 0.4535,
@@ -28,12 +16,6 @@
     }
   },
   "xgboost": {
-    "validation_2025": {
-      "accuracy": 0.4857,
-      "roc_auc": 0.4873,
-      "log_loss": 0.7461,
-      "brier_score": 0.274
-    },
     "test_2026": {
       "accuracy": 0.5417,
       "roc_auc": 0.5045,
@@ -43,15 +25,15 @@
   },
   "ensemble_model": {
     "test_2026": {
-      "accuracy": 0.4583,
-      "roc_auc": 0.437,
-      "log_loss": 0.7284,
-      "brier_score": 0.2667
+      "accuracy": 0.625,
+      "roc_auc": 0.4321,
+      "log_loss": 0.682,
+      "brier_score": 0.2444
     },
-    "weights": {
-      "logistic_regression": 0.6411852441928462,
-      "random_forest": 0.3588147558071539,
-      "xgboost": 0.0
+    "meta_weights": {
+      "logistic_regression": 0.23188265629474222,
+      "random_forest": 0.09959505866395726,
+      "xgboost": -0.022070208117734767
     }
   }
 }

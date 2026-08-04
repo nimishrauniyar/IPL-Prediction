@@ -57,8 +57,11 @@ def fixtures(season: Optional[str] = None) -> dict:
     ).sort_values(["date", "match_id"])
     artifact = joblib.load(MODEL_DIR / "ipl_ensemble.joblib")
     x = fixture_rows[artifact["feature_columns"]]
-    probabilities = sum(weight * artifact["models"][name].predict_proba(x)[:, 1]
-                        for name, weight in artifact["weights"].items())
+    meta_features = {}
+    for name, model in artifact["models"].items():
+        meta_features[name] = model.predict_proba(x)[:, 1]
+    X_meta = pd.DataFrame(meta_features)
+    probabilities = artifact["meta_model"].predict_proba(X_meta)[:, 1]
     result = []
     for row, probability in zip(fixture_rows.itertuples(index=False), probabilities):
         support = min(row.team_a_matches_played, row.team_b_matches_played)

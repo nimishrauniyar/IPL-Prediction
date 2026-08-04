@@ -26,8 +26,11 @@ def predict_match(team_a: str, team_b: str, schedule_path=None, as_of: date | No
     feature_row = make_feature_row(state, context.team_a, context.team_b, venue, cutoff)
     artifact = joblib.load(MODEL_DIR / "ipl_ensemble.joblib")
     x = pd.DataFrame([feature_row], columns=artifact["feature_columns"])
-    probability = sum(artifact["weights"][name] * model.predict_proba(x)[:, 1][0]
-                      for name, model in artifact["models"].items())
+    meta_features = {}
+    for name, model in artifact["models"].items():
+        meta_features[name] = model.predict_proba(x)[:, 1]
+    X_meta = pd.DataFrame(meta_features)
+    probability = artifact["meta_model"].predict_proba(X_meta)[:, 1][0]
 
     # Confidence describes how much IPL history supports the estimate, not how
     # lopsided the probability is.  A well-supported 50/50 matchup should not
